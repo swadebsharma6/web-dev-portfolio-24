@@ -103,3 +103,24 @@ nav a {
 .info-title {
   margin-bottom: 0px;
 }
+
+/* What i can do section styles */
+.skills-container {
+  display: flex;
+  gap: 20px;
+}
+.skill {
+  padding: 30px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px lightblue;
+}
+
+/* Resume Section styles */
+.normaly-section {
+  margin: 120px 0px;
+}
+.resume-container {
+  display: flex;
+  gap: 0 20px;
+}

@@ -1,6 +1,14 @@
 /* Shared styles */
+/* * {
+  margin: 0;
+  padding: 0;
+} */
 body {
   font-family: "Open Sans", sans-serif;
+}
+main {
+  max-width: 1140px;
+  margin: auto;
 }
 
 .text-primary {
@@ -40,13 +48,58 @@ nav a {
 /* header related styles */
 .header {
   background-color: #fff8f3;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 .banner {
-  padding: 30px 30px 30px 150px;
+  padding: 30px 30px 0px 150px;
   display: flex;
   align-items: center;
 }
 .banner .profile-pic {
   width: 500px;
+}
+.banner-greeting {
+  font-size: 25px;
+  color: #474747;
+  margin-bottom: 0px;
+}
+
+.banner-title {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+/* about section style */
+.about {
+  margin: 120px 0;
+  padding: 130px;
+  border-radius: 10px;
+  background-color: #fff8f3;
+}
+.section-title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+.section-description {
+  text-align: center;
+  font-size: 16px;
+}
+.section-heading {
+  padding: 30px 140px;
+}
+.about-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-info {
+  text-align: center;
+}
+.info-title {
+  margin-bottom: 0px;
 }

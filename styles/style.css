@@ -150,3 +150,60 @@ textarea {
   border: 1px solid gray;
   border-radius: 10px;
 }
+
+.hide {
+  display: none;
+}
+/* Responsive Website  with Tailwind breakpoints*/
+/* Mobile device */
+@media screen and (max-width: 576px) {
+  .header {
+    background-image: none;
+  }
+  nav,
+  nav > ul,
+  .skills-container,
+  .banner {
+    flex-direction: column;
+  }
+  .section-heading {
+    padding: 10px;
+  }
+  .normaly-section {
+    margin: 10px 0px;
+    padding: 10px;
+  }
+  .resume-container {
+    flex-direction: column;
+  }
+  footer,
+  .about-info-container {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .about,
+  .banner {
+    padding: 10px;
+  }
+  .contact {
+    display: none;
+  }
+  .banner .profile-pic {
+    width: 100%;
+  }
+}
+/* Medium device */
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  .skills-container,
+  .resume-container {
+    flex-direction: column;
+  }
+  footer {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .about {
+    padding: 10px;
+  }
+}
